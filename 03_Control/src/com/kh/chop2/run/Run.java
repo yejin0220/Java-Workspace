@@ -21,7 +21,31 @@ public class Run {
 		//af.method12();
 		//af.method13();
 		//af.method14();
-		af.method15();
+		//af.method15();
+		
+		LoopPractice lp = new LoopPractice() ;
+		//lp.practice3();
+		//lp.practice8();
+		//lp.practice9();
+		//lp.practice10();
+		//lp.practice11();
+		//lp.practice12();
+		//lp.practice13();
+		
+		B_While bw = new B_While();
+		//bw.method1();
+		//bw.method2();
+		//bw.method3();
+		//bw.method4();
+		//bw.method5();
+		//bw.method6();
+		//bw.method7();
+		//bw.method8();
+		
+		
 	}
 
+	
+	
+	
 }

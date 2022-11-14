@@ -233,7 +233,7 @@ public class A_For {
 		//Math.random() *  출력을 하고자하는 갯수 + 시작하고 싶은 수 
 		//시작 수 ~(시작수+출력을 하고자하는 갯수)
 		
-		int random = (int)(Math.random() *10+1);
+		int random = (int)(Math.random() *10+1); //=> 1이상 11미만의 랜덤 값 출력
 		System.out.println(random);
 		
 		int sum = 0;

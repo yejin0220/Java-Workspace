@@ -1,0 +1,308 @@
+package com.kh.chop2.loop;
+
+import java.util.Scanner;
+
+public class LoopPractice {
+
+public void practice1() {
+		
+//		사용자로부터 한 개의 값을 입력 받아 
+//      1부터 그 숫자까지의 숫자들을 모두 출력하세요.
+//		단, 입력한 수는 1보다 크거나 같아야 합니다. 
+		// 만일, 1 미만의 숫자가 입력됐다면
+//		“1 이상의 숫자를 입력해주세요”가 출력되면서 다시 사용자가 값을 입력하도록 하세요.
+//	
+//		ex.
+//		1이상의 숫자를 입력하세요 : 4         1이상의 숫자를 입력하세요 : 0
+//		1 2 3 4                        1 이상의 숫자를 입력해주세요.
+//		                               1이상의 숫자를 입력하세요 : 8
+//		                               1 2 3 4 5 6 7 8
+		
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("한 개의 값을 입력하세요 : ");
+		int num = sc.nextInt();
+		
+		if(num >= 1) {
+			for(int i = 1; i<=num; i++) {
+				System.out.print(i+" ");
+			}
+		}else {
+			System.out.println("1이상의 숫자를 입력해주세요.");
+			practice1();
+		}
+		
+				
+	}
+
+	
+	public void practice2() {
+		
+//		사용자로부터 한 개의 값을 입력 받아 1부터 그 숫자까지의 모든 숫자를 거꾸로 출력하세요.
+		
+//		단, 입력한 수는 1보다 크거나 같아야 합니다. 
+		
+//		만일 , 1 미만의 숫자가 입력됐다면  “1 이상의 숫자를 입력해주세요”가 출력되면서 
+//		다시 사용자가 값을 입력하도록 하세요.
+//	
+//		ex.
+//		1이상의 숫자를 입력하세요 : 4        1이상의 숫자를 입력하세요 : 0
+//		4 3 2 1                       1 이상의 숫자를 입력해주세요.
+//		                              1이상의 숫자를 입력하세요 : 8
+//		                              8 7 6 5 4 3 2 1
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("한 개의 값을 입력하세요 : ");
+		int num = sc.nextInt();
+	
+		if(num>=1) {
+			for(int i =num; i>0; i--) { //i값에 num을 대입 -> 사용자가 입력한 값부터 1까지 1씩 감소.
+				System.out.print(i+" ");
+			}
+		}else {
+			System.out.println("1이상의 숫자를 입력해주세요.");
+			practice2();
+		}
+		
+		
+		
+		
+	}
+	
+	
+	public void practice3() {
+		
+
+//	1부터 사용자에게 입력 받은 수까지의 정수들의 합을 출력하세요.
+
+//	ex.
+//	정수를 하나 입력하세요 : 8
+//	1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("정수를 하나 입력하세요 : ");
+		int num = sc.nextInt();
+		
+//		int sum = 0;
+//		for(int i =1; i<=num ; i++) { //i값이 1부터 num값까지 1씩 증가하면서 반복된다.
+//			if(i==num) {
+//				System.out.print("=");
+//			}else {
+//				System.out.print("+");
+//			}
+//			sum += i;
+//			System.out.print(sum);
+//		}
+//		
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+//		int sum = 0;
+//		for(int i = 1; i<=num;i++) {
+//			if(i==num) {
+//				sum += i;		
+//				System.out.printf("%d",i);
+//				System.out.print("+");
+//				if(i==num) {
+//
+//					System.out.printf("=");
+//				}
+//
+//			}
+//		
+//	  
+//			
+//		
+//		} System.out.print(sum);
+//		
+		
+		
+		
+		
+		
+	}
+	
+	public void practice4 () {
+		
+//		사용자로부터 두 개의 값을 입력 받아 그 사이의 숫자를 모두 출력하세요. 
+//		만일, 1 미만의 숫자가 입력됐다면 “1 이상의 숫자를 입력해주세요”가 출력되면서
+		//=> 모든 숫자들이 양수값이 입력되어야 함.
+//		다시 사용자가 값을 입력하도록 하세요.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("첫 번째 숫자 : ");
+		int num1 = sc.nextInt();
+		
+		System.out.print("두 번쨰 숫자 : ");
+		int num2 = sc.nextInt();
+		
+		if(num1>0 && num2>0) {
+			if(num2>num1) { //두번쨰 숫자가, 첫번째 숫자보다 클때 : 첫번쨰 4/두번째 8 =? 45678
+				for(int i = num1; i<= num2; i++) { //첫번쨰 숫자부터, 두번쨰숫자까지, 1씩 증감하기를 반복
+					System.out.print(i+" "); // 4 5 6 7 8
+			
+				}
+			}else { //만약, 첫번째 숫자가 두번째숫자보다 클때  => 첫째 8 / 둘째 4
+				for(int i = num2; i<= num1; i++ ) { //두번쨰숫자부터 첫번쨰 숫자까지, 1씩 증감
+					System.out.print(i+" "); // 
+				}
+			}
+			
+			
+		}else {
+			System.out.println("1이상의 숫자를 입력해주세요.");
+			practice4();
+		}
+		
+		
+		
+		
+	}
+	
+	public void practice5 () {
+		
+		
+//		사용자로부터 입력 받은 숫자의 단부터 9단까지 출력하세요.단 , 9를 초과하는 숫자가 입력됐다면
+//		“9 이하의 숫자를 입력해주세요”가 출력되면서 다시 사용자가 값을 입력하도록 하세요.
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("원하는 단을 입력하세요(숫자만) : ");
+		int num = sc.nextInt();
+		
+		
+		if(num>=2 && num<=9) {
+			for(int i = num; i<=9; i++) {
+				System.out.printf("========================%d단================= \n", num);	
+			
+				for(int j= 1; j<=9; j++) {
+					System.out.printf("%d X %d = %d \n",i, j,(i*j));
+				}
+			}
+		} else {
+			System.out.println("9이하의 숫자를 입력해주세요");
+			practice5();
+		}
+		
+		
+	}
+	
+	
+	public void practice6 () {
+		
+//		사용자로부터 시작 숫자와 공차를 입력 받아
+//		일정한 값으로 숫자가 커지거나 작아지는 프로그램을 구현하세요.
+//		단, 출력되는 숫자는 총 10개입니다.
+//		* ‘공차’는 숫자들 사이에서 일정한 숫자의 차가 존재하는 것을 말한다.
+//		ex) 2, 7, 12, 17, 22 …
+//		5 5 5 5 => 여기서 공차는 5
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("시작숫자 : ");
+		int num = sc.nextInt();
+		
+		System.out.println("공차 : ");
+		int num1 = sc.nextInt();
+		
+		for(int i = 1; i <=10; i++) {
+			System.out.print(num+ " ");
+			num = num+num1;
+		}
+	
+	
+	}
+	
+	public void practice8() {
+		
+//		다음과 같은 실행 예제를 구현하세요.
+//		ex.
+//		정수 입력 : 4
+//		*
+//		**
+//		***
+//		****
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("정수 입력 : ");
+		int num = sc.nextInt();
+		
+		
+		
+		for(int i= 1; i<=num; i++) {
+			for(int j = 1; j<=i;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		
+		
+	}
+	
+	public void practice9() {
+		
+		
+//		다음과 같은 실행 예제를 구현하세요.
+//		ex.
+//		정수 입력 : 4
+//		****
+//		***
+//		**
+//		*
+	
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("정수 입력 : ");
+		int num = sc. nextInt();
+		
+		
+		for(int i = 1; i <= num; i++) {
+			for(int j = num ; j<=1; j++ ) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+		
+//		
+//		for (int i = num; i<=1; i--) {
+		
+//			for(int j = 1; j<5 ; j++ ) {  ****
+//		       System.out.print("*");
+//             	} System.out.println();
+//		
+//		for(int j = 1; j<4 ; j++ ) {  ***
+//	       System.out.print("*");
+//      	} System.out.println();		
+		
+		
+		
+		
+		
+	
+	
+	
+		
+	}
+	
+}
