@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class A_Break {
 
 	/*
+	 * 분기문 : break, countinue
+	 * -> 단독적으로 혼자서는 사용을 하지 못하고, 반복문과 함게 사용해야함
+	 * 
 	 * break; : break문을 만나는 순간 현재 속해있는 반복문을 빠져나감.
 	 * -> 즉, 가장 가까운 반복문만 빠져나감
 	 * 

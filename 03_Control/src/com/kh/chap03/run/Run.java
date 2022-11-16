@@ -9,7 +9,14 @@ public class Run {
 		A_Break ab = new A_Break();
 		//ab.methid1();
 		//ab.methid2();
-		ab.methid3();
+		//ab.methid3();
+		
+		
+		B_Continue bc = new B_Continue();
+		//bc.method1();
+		//bc.method2();
+		bc.method3();
+		
 	}
 	
 }
