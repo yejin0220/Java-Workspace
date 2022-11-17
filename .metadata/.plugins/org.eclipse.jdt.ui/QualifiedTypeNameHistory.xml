@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="com.kh.chop2.loop.B_While"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.kh.practice.dimension.DimensionPractice"/>
+    <fullyQualifiedTypeName name="com.kh.chap01_abstraction.model.vo.Student"/>
+    <fullyQualifiedTypeName name="com.kh.chap02_encapulation.model.vo.Student"/>
 </qualifiedTypeNameHistroy>
