@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="com.kh.practice.dimension.DimensionPractice"/>
     <fullyQualifiedTypeName name="com.kh.chap01_abstraction.model.vo.Student"/>
     <fullyQualifiedTypeName name="com.kh.chap02_encapulation.model.vo.Student"/>
+    <fullyQualifiedTypeName name="com.kh.chap04_field.model.vo.FieldTest3"/>
+    <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
 </qualifiedTypeNameHistroy>

@@ -72,7 +72,7 @@ public class Student {
 	
 	
 	//age필드에 담긴 값을 돌려주는 메소드
-	public int getaAge( ) {
+	public int getAge( ) {
 		return age;
 		
 	}

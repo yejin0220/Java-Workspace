@@ -46,7 +46,21 @@ public class Run {
 		hong.setAge(20);
 		hong.setHeight(168.7);
 		
+		System.out.println(hong.getName());
+		System.out.println(hong.getAge());
+		System.out.println(hong.getHeight());
+		
 		System.out.println(hong.information()); //information : 해당 객체가 가지고 있는 모든 정보를 문자열로 출력
+		
+		
+		Student min = new Student();
+		min.setName("민경민");
+		min.setAge(31);
+		min.setHeight(180.5);
+		
+		System.out.println(min.information());
+		
+		
 	}
 
 }
