@@ -56,7 +56,7 @@ public class User {
 		
 		
 	}
-	public User(String userId, String UserPwd, String userName, int age, char gender) {
+	public User(String userId, String userPwd, String userName, int age, char gender) {
 		this(userId, userPwd, userName);
 		/*
 		 * 생성자 내부에 생성자끼리 중복되는 코드가 있는 경우, this()생성자를 통해 같은 클래스 내에 있는 다른 생성자 호출이 가능
