@@ -11,5 +11,6 @@
     <fullyQualifiedTypeName name="com.kh.practice.snak.model.vo.Snak"/>
     <fullyQualifiedTypeName name="com.kh.hw.shape.model.vo.Shape"/>
     <fullyQualifiedTypeName name="com.kh.chap01_oneVsmany.mode.vo.Book"/>
+    <fullyQualifiedTypeName name="com.kh.chap02_objectArray.model.vo.Phone"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
