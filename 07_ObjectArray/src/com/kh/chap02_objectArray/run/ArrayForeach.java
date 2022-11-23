@@ -80,7 +80,7 @@ public class ArrayForeach {
 		System.out.print("구매하고자 하는 폰 입력 : ");
 		String series = sc.nextLine();
 		
-		int count =0;
+		int count = 0;
 		for(Phone phone : phones) {
 			if(phone.getSeries().equals(series)) {
 				System.out.printf("%s핸드폰의 가격은 %d입니다.",phone.getSeries(),phone.getPrice());
