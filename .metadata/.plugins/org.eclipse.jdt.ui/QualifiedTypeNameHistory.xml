@@ -20,7 +20,16 @@
     <fullyQualifiedTypeName name="com.kh.practice.point.model.vo.Rectangle"/>
     <fullyQualifiedTypeName name="com.kh.practice.point.controller.RectangleController"/>
     <fullyQualifiedTypeName name="com.kh.practice.point.model.vo.Circle"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.kh.practice.point.controller.CircleController"/>
     <fullyQualifiedTypeName name="com.kh.practice.point.view.PointMenu"/>
+    <fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Desktop"/>
+    <fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Electronic"/>
+    <fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.Controller.ElectronicController2"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.controller.LibraryController"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.CookBook"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.AniBook"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.Book"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.Member"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.view.LibraryMenu"/>
 </qualifiedTypeNameHistroy>
