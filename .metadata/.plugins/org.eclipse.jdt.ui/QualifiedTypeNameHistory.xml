@@ -32,4 +32,8 @@
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.Book"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.Member"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.view.LibraryMenu"/>
+    <fullyQualifiedTypeName name="com.kh.hw.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part01_basic.model.vo.Sports"/>
+    <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Person"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap02_abstractAndInterface.model.vo.V40"/>
 </qualifiedTypeNameHistroy>
