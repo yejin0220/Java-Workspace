@@ -26,7 +26,6 @@
     <fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Electronic"/>
     <fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.Controller.ElectronicController2"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.controller.LibraryController"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.CookBook"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.AniBook"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap01_poly.model.vo.Book"/>
@@ -36,4 +35,16 @@
     <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part01_basic.model.vo.Sports"/>
     <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Person"/>
     <fullyQualifiedTypeName name="com.kh.practice.chap02_abstractAndInterface.model.vo.V40"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="com.kh.practice.token.controller.TokenController"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.kh.exception.controller.A_UncheckedException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="com.kh.exception.controller.B_ChekedException"/>
+    <fullyQualifiedTypeName name="com.kh.exception.controller.C_CustomException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.kh.practice.numRange.controller.NumberController"/>
 </qualifiedTypeNameHistroy>
