@@ -33,6 +33,7 @@ public class Circle {
 	public void  incrementRadius() { //반지름을 1증가하는 역할을 하는 메소드
 		radius+=1; //반지금을 1씩 증가해라
 		getAreaOfCircle();
+		
 		getSizeOfCircle();
 	}
 	

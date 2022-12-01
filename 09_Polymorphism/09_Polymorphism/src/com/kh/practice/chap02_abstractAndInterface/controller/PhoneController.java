@@ -13,6 +13,7 @@ public class PhoneController {
 	 V40 v = new V40();	
 	 
 	 method[0] = gn.printinformation();
+	return method;
 	 
 		
 	}
