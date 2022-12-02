@@ -1,21 +1,15 @@
-package com.kh.chap02_inherit.mode.vo;
+package com.kh.chap02_inherit.model.vo;
 
-public class Car extends Vehicle{
-	
-	
+public class Car extends Vehicle {
 	private int tire;
-	
 	
 	public Car() {
 		
-		
 	}
 	
-	public Car(String name, double milege, String kind, int tire) {
-		super(name, milege, kind);
-		this.tire=tire;
-		
-		
+	public Car(String name, double mileage, String kind ,int tire) {
+		super(name , mileage, kind);
+		this.tire = tire;
 	}
 
 	public int getTire() {
@@ -26,18 +20,17 @@ public class Car extends Vehicle{
 		this.tire = tire;
 	}
 	
-	
-	
 	@Override
 	public String information() {
 		return super.information()+", tire : "+tire;
 	}
 	
-	
 	@Override
 	public void howToMove() {
-		System.out.println("엑셀을 밟아 바뀌를 굴려서 움직인다.");
+		System.out.println("바퀴를 굴려 움직인다.");
 	}
+	
+	
 	
 	
 	
