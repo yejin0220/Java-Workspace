@@ -1,6 +1,6 @@
 package com.kh.practice.chap02_abstractAndInterface.model.vo;
 
-public class V40 extends SmartPhone{
+public class V40 extends SmartPhone implements NotePen{
 	
 	public V40() {
 		super.setMaker("LG");
@@ -47,6 +47,11 @@ public class V40 extends SmartPhone{
 	return false;
 	}
 	
+	@Override
+	public String printinformation() {
+		// TODO Auto-generated method stub
+		return null;
 
 
-}
+	}
+
