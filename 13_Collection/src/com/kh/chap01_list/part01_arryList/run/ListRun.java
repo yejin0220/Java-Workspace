@@ -1,6 +1,7 @@
 package com.kh.chap01_list.part01_arryList.run;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.kh.chap01_list.part01_arryList.medel.vo.Music;
 
@@ -14,10 +15,11 @@ public class ListRun {
 		 * 자료구조가 내장되어 있는 클래스로 자바에서 제공하는 "자료구조"를 담당하는 "프레임워크"이다.
 		 * 
 		 * 자료구조?
-		 * 방대한 데이터들을 효율적으로(구조적으로)다룰때 필요한 개념
+		 * 방대한 데이터들을 메모리상에서 효율적으로(구조적으로)다룰때 필요한 개념
 		 * 
 		 * 프레임워크
 		 * 효율적인 기능들이 이미 정의되어 있는 틀(프레임워크)
+		 * 틀을 바꿀 순 없음, 
 		 * 
 		 * 정리해보면
 		 * 데이터들이 새로이 추가되거나, 삭제가 되거나, 수정이 되는 기능(알고리즘)들이 이미 정의 되어있는 틀이 있다.
@@ -76,7 +78,7 @@ public class ListRun {
 		 *해당 컬렉션에 다양한 타입의 데이터 값들이 담길 수 있음.(Defualt E == Object)
 		 *
 		 * 별도의 제내릭 설정으로 <Music>으로 하게 되면, (E == Music) 으로 바뀌게 됨
-		 * 내가 만든 클래스를 타입으로 제시할 수 있음, 해당 어레dlfl스트에는 내가 설정한 타입의 객체만 담길 수 있음
+		 * 내가 만든 클래스를 타입으로 제시할 수 있음, 해당 어레스트에는 내가 설정한 타입의 객체만 담길 수 있음
 		 * 
 		 * 
 		 * 제네릭을 설정하는 이유
@@ -162,16 +164,32 @@ public class ListRun {
 		}
 		
 		
+		System.out.println("=====================================================================================");
+		//7. subLinst(int index1, int index2) : 해당 리스트로부터 index1에서 index2까지의 데이터 값들을 추출해서 새로운 List로 반환시켜주는 메소드
+											
+		List<Music>	 sub = list.subList(0, 2); //0<= 인덱스 범위 <2 => 0,1만 짜랄옴
+		System.out.println(sub);
 		
 		
 		
 		
+		System.out.println("=====================================================================================");
+		//8. addAll(Collection c): 해당 리스트에 다른 컬렉션에 있는 다른 데이터들을 통채로 추가해주는 메소드
+	    list.addAll(sub);
+	    System.out.println(list); //sub에 있는 객체도 같이 포함됨
+	    
+	    
+	    
+	    System.out.println("=====================================================================================");
+	    //9. isEmpty() : 해당리스트가 비어잇는지 묻는 메소드(비어있으면 true/비어있지 않다면 false)
+	    System.out.println("리스트가 비어있습니까?"+list.isEmpty());
 		
 		
 		
-		
-		
-		
+	    System.out.println("=====================================================================================");
+	    //10. clear():해당 메소드를 비워주는 메소드
+	    list.clear();
+	    System.out.println("리스트가 비어있습니까?"+list.isEmpty());
 		
 		
 		

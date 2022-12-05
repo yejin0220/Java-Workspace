@@ -44,7 +44,7 @@ public class ObjectDao {
 		
 		
 		try(ObjectInputStream ois =  new ObjectInputStream(new FileInputStream("phone.txt"))){ 
-			Phone p =(Phone)ois.readObject();
+			Phone p =(Phone)ois.readObject(); //자식클래스 형변환 필요함.
 			System.out.println(p);
 			
 		} catch (FileNotFoundException e) {

@@ -14,7 +14,7 @@ public class FileByteDao {
 	//출력 : 프로그램 내의 데이터를 파일로 내보내기(즉, 파일에 기록하겠다.)
 	
 	public void fileSave() {
-		//FileOutputStream : "파일"로 데이터를 1byte단위로 출력하는 스트림
+		//FileOutputStream : "파일"로 데이터를 1byte단위로 출력하는 스트림(바이트 기반스트림)
 		
 		FileOutputStream fout = null;
 		
@@ -32,7 +32,7 @@ public class FileByteDao {
 			fout = new FileOutputStream("a_byte.txt",true); //객체생성 후 이어쓰기
 			
 			//2. 연결통로(스트림)로 데이터 출력 : write()메소드 이용
-			//1byte 범위 : -128~129 까지의 숫자 (단, 파일에 기록되기를 해당 숫자의 고유한 '문자'가 기록됨)
+			//1byte 범위 : -128~129 까지의 숫자 (단, 파일에 기록되기를 해당 숫자의 고유한 '문자'가 기록됨)/음수 사용X 0~127까지
 			//			: 아스키코드표 참고
 			fout.write(97); //a기록
 			fout.write('b'); //b기록
@@ -51,7 +51,7 @@ public class FileByteDao {
 			
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		} finally{ //어떤 예외가 발생하든간에 반드시 실행하는 구문을 작성하는 블럭
 			
@@ -59,7 +59,7 @@ public class FileByteDao {
 			try {
 				fout.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+	
 				e.printStackTrace();
 			}
 			
