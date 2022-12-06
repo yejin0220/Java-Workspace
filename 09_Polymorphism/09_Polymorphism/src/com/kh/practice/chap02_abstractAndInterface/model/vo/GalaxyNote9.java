@@ -1,6 +1,7 @@
 package com.kh.practice.chap02_abstractAndInterface.model.vo;
 
-public class GalaxyNote9 extends SmartPhone{
+public class GalaxyNote9 extends SmartPhone implements NotePen {
+	
 	
 	public GalaxyNote9() {
 		super.setMaker("삼성");
@@ -44,6 +45,17 @@ public class GalaxyNote9 extends SmartPhone{
 		
 	}
 	
+	@Override
+	public String printinformation() {
+		String result = "갤럭시 노트9은 삼성에서 만들어졌고 재원은 다음과 같다. \n";
+		       result +=  makeCall()+"\n";
+		       result += takeCall()+"\n";
+		       result += picture()+"\n";
+		       result += charge()+"\n";
+	           result += touch()+"\n";
+	        
+		return result;
+	}
 
 
 }
