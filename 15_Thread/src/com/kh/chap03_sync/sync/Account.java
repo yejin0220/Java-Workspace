@@ -1,9 +1,9 @@
 package com.kh.chap03_sync.sync;
 
 //공유자원으로 사용
-//1개의 계좌
-//2개의 ATM기-> atm1/atm2
-
+//1개의 계좌 -> account
+//2개의 ATM기-> atm1/atm2(스레드)
+//atm1이 account에 접근하는 동안에는 atm2는 접근하지 못하도록 동기화설정(synchronized)
 public class Account {
 	
 	private int balance = 1200;

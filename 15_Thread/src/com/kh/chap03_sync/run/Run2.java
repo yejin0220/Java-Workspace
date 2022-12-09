@@ -15,6 +15,7 @@ public class Run2 {
 		/*
 		 * 메서드에 동기화처리(synchronized) 처리해주지 않은 경우 값이 마구 뒤섞임
 		 * 즉, 앞의 쓰레드가 실행되는 동안은 다른 스레드가 같은 자원에 접근하면 안됨.
+		 * 동기화처리(synchronized)를 진행하게되면 프로그램 진행 속도가 느려질 수밖에 없음.
 		 */
 		atm1.start();
 		atm2.start();
@@ -29,6 +30,7 @@ public class Run2 {
 		 */
 		
 		System.out.println("메일스레드 종료");
+		
 
 	}
 
