@@ -1,4 +1,4 @@
-package com.kh.chap02_string.controller;
+package com.kh.chap02_String.controller;
 
 public class D_StringBufferAndBuilder {
 	/*

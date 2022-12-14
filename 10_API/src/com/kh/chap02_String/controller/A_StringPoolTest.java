@@ -1,4 +1,4 @@
-package com.kh.chap02_string.controller;
+package com.kh.chap02_String.controller;
 	
 	// String은 불변클래스(변하지 않는 클래스)
 	// 수정하는순간 기존의 값이 담겨있는 공간에서 수정되지 않음.

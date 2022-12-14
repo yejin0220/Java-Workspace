@@ -1,5 +1,23 @@
+<<<<<<< Updated upstream
 INDEX VERSION 1.131+C:\Java-Workspace\Java-Workspace\.metadata\.plugins\org.eclipse.jdt.core
 3463091983.index
+=======
+INDEX VERSION 1.131+C:\Users\yejin\Documents\GitHub\Java-Workspace\.metadata\.plugins\org.eclipse.jdt.core
+1720555650.index
+3563354633.index
+1083403344.index
+1407347984.index
+4038719612.index
+1759511900.index
+4147175065.index
+334451579.index
+3463091983.index
+3737244767.index
+2899642867.index
+2508705829.index
+3901023402.index
+1432398819.index
+>>>>>>> Stashed changes
 3443047871.index
 1083403344.index
 3901023402.index
@@ -7,6 +25,7 @@ INDEX VERSION 1.131+C:\Java-Workspace\Java-Workspace\.metadata\.plugins\org.ecli
 2899642867.index
 1162552954.index
 269338605.index
+<<<<<<< Updated upstream
 4038719612.index
 3860264560.index
 2835538714.index
@@ -25,3 +44,9 @@ INDEX VERSION 1.131+C:\Java-Workspace\Java-Workspace\.metadata\.plugins\org.ecli
 2104110693.index
 955131400.index
 1886392736.index
+=======
+188538090.index
+423542709.index
+2835538714.index
+2964239793.index
+>>>>>>> Stashed changes

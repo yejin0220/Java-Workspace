@@ -1,4 +1,4 @@
-package com.kh.chap02_string.controller;
+package com.kh.chap02_String.controller;
 
 import java.util.StringTokenizer;
 

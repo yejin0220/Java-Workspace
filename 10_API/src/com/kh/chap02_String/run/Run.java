@@ -1,6 +1,6 @@
-package com.kh.chap02_string.run;
+package com.kh.chap02_String.run;
 
-import com.kh.chap02_string.controller.*;
+import com.kh.chap02_String.controller.*;
 
 public class Run {
 

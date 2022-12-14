@@ -11,10 +11,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Java-Workspace\Java-Workspace"/>
 			<item value="C:\Users\yejin\Documents\GitHub\Java-Workspace"/>
+			<item value="C:\Java-Workspace\Java-Workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\yejin\Documents\GitHub\Java-Workspace\12_IO.zip"/>
 			<item value=""/>
 			<item value="C:\Java-Workspace\Java-Workspace\09_Polymorphism\09_Polymorphism\src\com\kh\practice\chap02_abstractAndInterface\controller\PhoneController.java"/>
 		</list>
